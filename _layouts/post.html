@@ -24,6 +24,8 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+	<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -33,6 +35,25 @@ layout: default
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
+
+  <!-- Gitalk 评论框 start -->
+  <div class="comment">
+      <div id="gitalk-container"></div>
+      <script>
+          var gitalk = new Gitalk({
+              clientID: 'd05945c4fa9490cc94e2',
+              clientSecret: '9e210908203b19e12684c9e0e7c05fa9a82bdcb4',
+              repo: 'blog.gitalk',
+              owner: 'jaxvanyang',
+              admin: ['jaxvanyang'],
+              id: location.pathname,      // Ensure uniqueness and length less than 50
+              distractionFreeMode: false, // Facebook-like distraction free mode
+			  language: 'zh-CN',
+          })
+          gitalk.render('gitalk-container')
+      </script>
+  </div>
+  <!-- Gitalk 评论框 end -->
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
