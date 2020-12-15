@@ -3,12 +3,11 @@ title:  "从 0 开始配置一个 Github Pages 博客"
 tags: 笔记 Github Pages
 layout: post
 ---
+
 > 最快的配置方式是 *fork* 一个别人的仓库，然后在它的基础上进行修改。  
 > 你可以参考一下我的[仓库](https://github.com/JaxVanYang/jaxvanyang.github.io)  
 > 如果你不幸发现几个 `BUG`，可以到我的仓库提交 `issue` 来通知我  
 > 另外也欢迎提建议 :)  
-
-<br>
 
 ## **警告**
 ___
