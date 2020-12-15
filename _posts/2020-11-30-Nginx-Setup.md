@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Nginx 配置"
+date: 2020-11-30 02:00:00 +0800
 tags: 笔记 Nginx 环境配置
 author: Jax
 ---

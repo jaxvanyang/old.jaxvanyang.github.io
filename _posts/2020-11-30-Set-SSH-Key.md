@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "配置 SSH 密钥"
+date: 2020-11-30 03:00:00 +0800
 tags: 笔记 SSH
 author: Jax
 ---

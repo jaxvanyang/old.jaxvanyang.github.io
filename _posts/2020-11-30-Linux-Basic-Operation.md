@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Linux 基本操作"
+date: 2020-11-30 01:00:00 +0800
 tags: 笔记 Linux
 author: Jax
 ---

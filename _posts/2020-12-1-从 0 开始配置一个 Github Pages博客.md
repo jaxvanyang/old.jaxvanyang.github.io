@@ -1,5 +1,6 @@
 ---
 title:  "从 0 开始配置一个 Github Pages 博客"
+date: 2020-12-01 03:00:00 +0800
 tags: 笔记 Github Pages
 layout: post
 ---
