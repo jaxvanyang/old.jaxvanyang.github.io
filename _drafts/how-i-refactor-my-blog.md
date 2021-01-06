@@ -50,3 +50,5 @@ title: 我是如何重构博客的
 4. 修改 `404.html` 的 `permalink` 会导致找不到页面时出现的不是 `404.html`  
 
 5. 通过注释掉 `_sass/minima/_layout.scss` 中的 `border-top` 删除了网页顶端边界  
+
+6. 将 `head.html` 格式化后无法引入生成的 `style.css`，原因是 VS Code 在路径前面插入了空格，Issue 详见：<https://github.com/microsoft/vscode/issues/43520>  
