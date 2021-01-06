@@ -8,14 +8,14 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Jax Young"
+      author: "Jax"
   -
     scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-      author: "Jax Young"
+      author: "Jax"
 
 exclude:
   - README.md

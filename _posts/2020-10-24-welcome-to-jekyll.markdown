@@ -1,9 +1,8 @@
 ---
-layout: home
 title:  "Welcome to Jekyll!"
 date: 2020-10-24 10:24:00 +0800
 tags: jekyll update
-author: jekyll
+author: Jekyll
 ---
 
 > Default post by Jekyll  

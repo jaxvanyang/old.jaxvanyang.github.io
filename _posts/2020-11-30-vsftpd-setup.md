@@ -1,9 +1,7 @@
 ---
-layout: post
 title:  "vsFTPd 配置"
 date: 2020-11-30 05:00:00 +0800
 tags: 笔记 vsFTPd
-author: Jax
 ---
 
 > 本文内容不太完善，请酌情阅读。  

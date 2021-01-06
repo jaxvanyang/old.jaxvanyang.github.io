@@ -1,9 +1,7 @@
 ---
-layout: post
 title:  "Linux 基本操作"
 date: 2020-11-30 01:00:00 +0800
 tags: 笔记 Linux
-author: Jax
 ---
 
 > 在所有给出的命令格式中，`"[]"`表示可选项，`"<>"`表示必填项  
