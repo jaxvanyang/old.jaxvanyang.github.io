@@ -13,7 +13,7 @@ title: 我是如何重构博客的
 - [ ] 添加文章目录  
 - [ ] 掌控布局  
     - [x] 消除网页开头的外边距  
-- [ ] 增加评论系统  
+- [x] 增加评论系统  
 - [ ] 新页面  
     - [ ] 友链  
     - [ ] 自定义主页  
@@ -55,3 +55,9 @@ title: 我是如何重构博客的
     使用单双引号混用可解决 `head.html` 中的问题  
 
 7. 尝试使用 OneDrive 作为图床，但是 OneDrive 提供的图片背景不能透明  
+
+8. 使用字符串切片让 `gitalk.id` 满足长度限制：  
+    ```js
+    id: location.pathname.slice(0, 49),      // Ensure uniqueness and length less than 50
+    ```
+    一般不用担心路径会重名  
