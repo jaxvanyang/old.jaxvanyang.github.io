@@ -53,3 +53,5 @@ title: 我是如何重构博客的
 
 6. 将 `head.html` 格式化后无法引入生成的 `style.css`，原因是 VS Code 在路径前面插入了空格，Issue 详见：<https://github.com/microsoft/vscode/issues/43520>  
     使用单双引号混用可解决 `head.html` 中的问题  
+
+7. 尝试使用 OneDrive 作为图床，但是 OneDrive 提供的图片背景不能透明  
