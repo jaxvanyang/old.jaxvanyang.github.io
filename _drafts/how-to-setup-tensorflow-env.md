@@ -1,9 +1,11 @@
 ---
 title: 「开源教程」如何配置 TensorFlow 本地开发环境（Docker + Jupyter + VS Code）
+excerpt: <blockquote><p>本文主要参考自 <a href="https://tensorflow.google.cn/install">TensorFlow 官方安装教程</a>，选择了 Docker 容器作为开发环境，并且可以用 Jupyter 和 VS Code 开发。</p></blockquote>
 ---
-> 本文主要参考自 [TensorFlow 官方安装教程](https://tensorflow.google.cn/install)，选择了 Docker 容器作为开发环境，并且可以用 Jupyter 和 VS Code 开发。  
 
-![TensorFlow logo](../assets/images/tensorflow-logo.png)  
+![TensorFlow logo]({{ '/assets/images/tensorflow-logo.png' | absolute_url }})  
+
+> 本文主要参考自 [TensorFlow 官方安装教程](https://tensorflow.google.cn/install)，选择了 Docker 容器作为开发环境，并且可以用 Jupyter 和 VS Code 开发。  
 
 安装 TensorFlow 有很多种方法，最方便快捷的是使用 `pip` 安装，这在官网上有十分简单的说明，我就不在这里重复了，这篇文章主要是带你看看安装 TensorFlow 容器，和如何解决可能会碰到的一些问题，让我们开始吧！  
 
@@ -12,7 +14,7 @@ title: 「开源教程」如何配置 TensorFlow 本地开发环境（Docker + J
 ## 1. 安装 Docker
 我们先来看看 [Docker 官方安装教程](https://docs.docker.com/get-docker/) 是如何介绍 Docker 的：  
 
-![Get Docker](../assets/images/get-docker.png)  
+![Get Docker]({{ '/assets/images/get-docker.png' | absolute_url }})  
 
 翻译：
 ```text
@@ -156,7 +158,7 @@ Docker 是在 GPU 上运行 TensorFlow 的最简单的方法，因为主机只�
 
 1. 使用最新的驱动程序  
     如果你使用的也是 Ubuntu 20.04，那么恭喜你，切换到最新的驱动十分容易，只需要打开自带的软件“软件和更新”，然后选择最新的驱动即可，如图所示：  
-    ![NVIDIA 驱动](../assets/images/nvidia-drive.png)  
+    ![NVIDIA 驱动]({{ '/assets/images/nvidia-drive.png' | absolute_url }})  
     如果你使用的不是 20 版本的 Ubuntu，或者使用的是其他发行版，那么可以参考 [How do I install the NVIDIA driver?](https://github.com/NVIDIA/nvidia-docker/wiki/Frequently-Asked-Questions#how-do-i-install-the-nvidia-driver)  
 
 2. 检查 GPU 是否可用：  
@@ -267,8 +269,8 @@ jupyter_http_over_ws extension initialized. Listening on /http_over_websocket
 
 另外我们也可以让 VS Code 使用这个支持 GPU 的服务器，首先我们要在 VS Code 中新建一个 Jupyter 笔记本，然后打开，在右上角的 Jupyter Server 中选择 `Existing` 然后填入上述链接即可：  
 
-![VS Code Jupyter 笔记本](../assets/images/vscode-jupyter.png)  
-![VS Code Jupyter 更换服务器](../assets/images/vscode-jupyter-change-server.png)  
+![VS Code Jupyter 笔记本]({{ '/assets/images/vscode-jupyter.png' | absolute_url }})  
+![VS Code Jupyter 更换服务器]({{ '/assets/images/vscode-jupyter-change-server.png' | absolute_url }})  
 
 
 ## 参考
