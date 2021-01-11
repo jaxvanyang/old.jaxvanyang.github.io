@@ -68,3 +68,5 @@ title: 我是如何重构博客的
 9. 在头信息里使用 `[]` 会导致 YAML 解析错误  
 
 10. Jekyll 不能识别 `type: "draft"`  
+
+11. Markdown 的表格必须另起一行开始  
