@@ -16,6 +16,13 @@ defaults:
     values:
       layout: "page"
       author: "Jax"
+  -
+    scope:
+      path: "_drafts"
+      # type: "drafts"
+    values:
+      layout: "post"
+      author: "Jax"
 
 exclude:
   - README.md

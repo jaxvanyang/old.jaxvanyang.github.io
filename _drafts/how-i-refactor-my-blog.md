@@ -29,7 +29,7 @@ title: 我是如何重构博客的
 ## 日志
 1. Jekyll 存储的链接变量是不包含域名的，默认在域名内跳转：  
     {% raw %}
-    ```html
+    ```
     <!-- 源码 -->
     <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
         {{ item.name }}
@@ -65,3 +65,5 @@ title: 我是如何重构博客的
     一般不用担心路径会重名  
 
 9. 在头信息里使用 `[]` 会导致 YAML 解析错误  
+
+10. Jekyll 不能识别 `type: "draft"`  
