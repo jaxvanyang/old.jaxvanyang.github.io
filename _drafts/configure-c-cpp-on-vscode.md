@@ -1,5 +1,5 @@
 ---
-title: [持续更新]如何在 VS Code 上配置 C/C++ 开发环境
+title: 「持续更新」如何在 VS Code 上配置 C/C++ 开发环境
 author: Jax Young
 ---
 

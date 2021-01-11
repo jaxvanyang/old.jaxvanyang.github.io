@@ -28,6 +28,7 @@ title: 我是如何重构博客的
 
 ## 日志
 1. Jekyll 存储的链接变量是不包含域名的，默认在域名内跳转：  
+    {% raw %}
     ```html
     <!-- 源码 -->
     <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
@@ -42,6 +43,7 @@ title: 我是如何重构博客的
         {{ item.name }}
     </a>
     ```
+    {% endraw %}
 
 2. 删除了所有文章里显式指定布局的指令 `layout: post`  
 
@@ -61,3 +63,5 @@ title: 我是如何重构博客的
     id: location.pathname.slice(0, 49),      // Ensure uniqueness and length less than 50
     ```
     一般不用担心路径会重名  
+
+9. 在头信息里使用 `[]` 会导致 YAML 解析错误  
