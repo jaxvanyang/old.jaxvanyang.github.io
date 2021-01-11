@@ -1,5 +1,5 @@
 ---
-title: 「开源教程」如何配置 TensorFlow 本地开发环境（Docker + Jupyter + VS Code）
+title: 「开源教程」快速配置 TensorFlow 本地开发环境（Docker + Jupyter + VS Code）
 excerpt: <blockquote><p>本文主要参考自 <a href="https://tensorflow.google.cn/install">TensorFlow 官方安装教程</a>，选择了 Docker 容器作为开发环境，并且可以用 Jupyter 和 VS Code 开发。</p></blockquote>
 ---
 
@@ -9,7 +9,10 @@ excerpt: <blockquote><p>本文主要参考自 <a href="https://tensorflow.google
 
 安装 TensorFlow 有很多种方法，最方便快捷的是使用 `pip` 安装，这在官网上有十分简单的说明，我就不在这里重复了，这篇文章主要是带你看看安装 TensorFlow 容器，和如何解决可能会碰到的一些问题，让我们开始吧！  
 
-因为我使用的是 Ubuntu 20.04，所以在配置过程中我都是用 Ubuntu 演示的，如果你用的也是 Ubuntu，那就太好了，如果不是也可以参考一下。  
+因为我使用的是 Ubuntu 20.04，所以在配置过程中我都是用 Ubuntu 演示的，如果你用的也是 Ubuntu，那就太好了，如果不是请仅作参考。  
+
+## 0. 关于开源教程
+这是我写的第一篇开源教程，开源的意思就是任何人都可以引用、编辑，网上的各种教程五花八门，但很多都不会随时间更新，这就会造成一些教程一开始是可行的，但是过了一段时间就会遇到一些错误，所以我建议大家在学习的时候多看官方教程，因为官方的教程一般都会及时更新并且是最佳实践。这篇教程也不适合所有人，很多细节我并没有研究得很透彻，主要是给那些新手快速配置环境看的，但我也希望这篇文章足够可靠，如果你有任何问题和建议都可以在评论区提出，有能力的也可以到我的 [GitHub 仓库]()  提交 PR。  
 
 ## 1. 安装 Docker
 我们先来看看 [Docker 官方安装教程](https://docs.docker.com/get-docker/) 是如何介绍 Docker 的：  
