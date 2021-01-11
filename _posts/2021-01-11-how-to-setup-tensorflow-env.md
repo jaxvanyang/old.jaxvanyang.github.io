@@ -14,7 +14,7 @@ excerpt: <blockquote><p>本文主要参考自 <a href="https://tensorflow.google
 ## 0. 关于开源教程
 这是我写的第一篇开源教程，开源的意思就是任何人都可以引用、编辑，网上的各种教程五花八门，但很多都不会随时间更新，这就会造成一些教程一开始是可行的，但是过了一段时间就会遇到一些错误，所以我建议大家在学习的时候多看官方教程，因为官方的教程一般都会及时更新并且是最佳实践。  
 
-这篇教程也不适合所有人，很多细节我并没有研究得很透彻，主要是给那些新手快速配置环境看的，但我也希望这篇文章足够可靠，如果你有任何问题和建议都可以在评论区提出，有能力的也可以到我的 [GitHub 仓库]()  提交 PR。  
+这篇教程也不适合所有人，很多细节我并没有研究得很透彻，主要是给那些新手快速配置环境看的，但我也希望这篇文章足够可靠，如果你有任何问题和建议都可以在评论区提出，有能力的也可以到我的 [GitHub 仓库](https://github.com/JaxVanYang/jaxvanyang.github.io/blob/main/_posts/2021-01-11-how-to-setup-tensorflow-env.md)  提交 PR。  
 
 ## 1. 安装 Docker
 我们先来看看 [Docker 官方安装教程](https://docs.docker.com/get-docker/) 是如何介绍 Docker 的：  
@@ -285,3 +285,4 @@ jupyter_http_over_ws extension initialized. Listening on /http_over_websocket
 ## 参考
 [配置 Docker 镜像加速器](https://developer.aliyun.com/article/606808)  
 
+[TensorFlow 官方安装教程](https://tensorflow.google.cn/install)  
