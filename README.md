@@ -10,7 +10,7 @@
 
 ## 目录结构
 - [_drafts](_drafts)  
-    用于存放文章的草稿  
+    用于存放文章的草稿和一些给自己看的笔记  
 
 - [_inlcudes](_includes)  
 
