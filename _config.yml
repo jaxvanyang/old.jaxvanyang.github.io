@@ -1,7 +1,7 @@
 # My extra setting
 encoding: UTF-8
 
-excerpt_separator: <!--excerpt-->
+# excerpt_separator: <!--excerpt-->
 
 defaults:
   -
