@@ -12,6 +12,8 @@ title: CSUST 2021 周赛 2 题解
 
 文末有少量参考链接，可以学习一下：）
 
+如果觉得太黑不适合阅读，请移步 CSDN：<https://blog.csdn.net/Jax_Yang/article/details/114021999>  
+
 ## [A、睿智小明买鞭炮](http://acm.csust.edu.cn/contest/129/problem/A)
 
 ### 涉及的知识
@@ -168,6 +170,8 @@ int main() {
 }
 ```
 
+<br>  
+
 ## [C、5G 传输](http://acm.csust.edu.cn/contest/129/problem/C)
 
 ### 涉及的知识
@@ -252,7 +256,9 @@ int main() {
 }
 ```
 
-## [D、神奇的数字串]
+<br>
+
+## [D、神奇的数字串](http://acm.csust.edu.cn/contest/129/problem/D)
 
 ### 涉及的知识
 1. 前缀和
@@ -315,7 +321,9 @@ int main() {
 }
 ```
 
-## [E、矩阵]
+<br>
+
+## [E、矩阵](http://acm.csust.edu.cn/contest/129/problem/E)
 
 ### 涉及的知识
 1. 简单的数学推导
