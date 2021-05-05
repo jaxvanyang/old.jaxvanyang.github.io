@@ -3,7 +3,7 @@ title: "长沙理工大学 GPA 自动计算爬虫"
 date: 2021-05-05 17:00:00 +0800
 ---
 
-![gpa-calculator]({{ "/assets/images/gpa-calculator-screenshot.png" | absolute_url }})  
+![gpa-calculator]({{ "/assets/images/gpa-calculator-edge.png" | absolute_url }})  
 
 ## 简介
 
