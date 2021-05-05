@@ -38,7 +38,12 @@ date: 2021-05-05 17:00:00 +0800
 
 ## 参考链接
 
-[Browser manipulation](https://www.selenium.dev/documentation/en/webdriver/browser_manipulation/)  
+- 脚本源代码：  
+
+    1. 主程序：[gpa_calculator.py](https://gitee.com/Jaxvanyang/lang-study/blob/gpa/python/src/gpa_calculator.py)  
+    2. 课程信息数据结构定义：[course.py](https://gitee.com/Jaxvanyang/lang-study/blob/gpa/python/src/course.py)  
+
+- [Browser manipulation](https://www.selenium.dev/documentation/en/webdriver/browser_manipulation/)  
 
 ## 更新
 
