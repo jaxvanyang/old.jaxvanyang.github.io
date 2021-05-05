@@ -3,6 +3,8 @@ title: "长沙理工大学 GPA 自动计算爬虫"
 date: 2021-05-05 17:00:00 +0800
 ---
 
+![gpa-calculator]({{ "/assets/images/gpa-calculator-screenshot.png" | absolute_url }})  
+
 ## 简介
 
 该脚本使用 [Edge 浏览器的测试驱动](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)模拟手工访问教务网站，只需要输入帐号密码就可以自动获取课程成绩信息，并计算各学年或学期的 GPA，简单易用。  
