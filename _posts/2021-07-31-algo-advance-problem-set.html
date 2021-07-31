@@ -10,8 +10,16 @@ layout: none
 <head>
     <title>《算法进阶指南》题单</title>
 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {%- seo -%}
+    <link rel="stylesheet" href='{{ "/assets/css/style.css" | relative_url }}'>
+    {%- feed_meta -%}
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+    {%- endif -%}
 
-    <meta charset="UTF-8">
+    {%- include custom-head.html -%}
     <meta name="keywords" content="AcWing,刷题，打卡,线上活动" />
     <meta name="description" content="本活动组织刷《算法竞赛进阶指南》，系统学习各种编程算法。主要面向有一定编程基础的同学。" />
     <meta name="baidu-site-verification" content="UW1SBiMHO7" />
@@ -23,7 +31,6 @@ layout: none
         href="https://cdn.acwing.com/static/web/node_modules/bootstrap-toggle/css/bootstrap-toggle.min.css">
     <link rel="stylesheet" href="https://cdn.acwing.com/static/web/css/signform.css">
     <link rel="stylesheet" href="https://cdn.acwing.com/static/jquery-ui-dist/jquery-ui.min.css">
-
     <link rel="stylesheet" href="https://cdn.acwing.com/static/web/css/success_modal.css" />
 
 
