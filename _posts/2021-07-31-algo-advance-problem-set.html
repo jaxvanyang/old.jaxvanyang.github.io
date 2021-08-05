@@ -27,8 +27,7 @@ layout: none
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="shortcut icon" type="image/png" href="https://cdn.acwing.com/static/web/img/favicon.ico" />
     <link rel="stylesheet" href="https://cdn.acwing.com/static/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-    <link rel="stylesheet"
-        href="https://cdn.acwing.com/static/web/node_modules/bootstrap-toggle/css/bootstrap-toggle.min.css">
+    <link rel="stylesheet" href="https://cdn.acwing.com/static/web/node_modules/bootstrap-toggle/css/bootstrap-toggle.min.css">
     <link rel="stylesheet" href="https://cdn.acwing.com/static/web/css/signform.css">
     <link rel="stylesheet" href="https://cdn.acwing.com/static/jquery-ui-dist/jquery-ui.min.css">
     <link rel="stylesheet" href="https://cdn.acwing.com/static/web/css/success_modal.css" />
@@ -279,46 +278,6 @@ layout: none
     <script
         src="https://cdn.acwing.com/static/web/js/file_system/file/content/whole/application/file_explorer/dist/file_explorer-0.0.5.min.js"></script>
     <script src="https://cdn.acwing.com/static/web/js/file_system/gui/dist/gui-0.0.19.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            let urls = {
-                add: "/file_system/file/operation/content/add/",
-                update: "/file_system/file/operation/content/update/",
-                delete: "/file_system/file/operation/content/delete/",
-                update_refactor_rename: "/file_system/file/operation/content/update/refactor/rename/",
-                command_ls: "/file_system/file/operation/content/command/ls/",
-                command_cp: "/file_system/file/operation/content/command/cp/",
-                command_mv: "/file_system/file/operation/content/command/mv/",
-                command_read: "/file_system/file/operation/content/command/read/",
-            };
-            desktop_state.os.builtin.api.file.operation.set(urls);
-
-            let applications = {
-                file_explorer: 284475,
-                ac_editor: 172575,
-                ac_saber: 118289,
-                settings: 589618,
-                ac_chat: 994425,
-            };
-            desktop_state.os.builtin.application.set(applications);
-
-            let configs = {
-                media_url: "https://cdn.acwing.com/media/",
-            };
-            desktop_state.os.builtin.settings.set(configs);
-
-            let auto_open_apps = [];
-
-            auto_open_apps.push({
-                title: "AC Chat",
-                icon: "https://cdn.acwing.com/media/file_system/file/application/icon/2220490481555590627-128_UQONKkk.png",
-                file_id: 994425,
-            });
-
-            desktop_state.taskbar.widgets.apps.set(auto_open_apps);
-        });
-    </script>
-
 
     <link rel="stylesheet" href="https://cdn.acwing.com/static/web/css/popover.css">
 
